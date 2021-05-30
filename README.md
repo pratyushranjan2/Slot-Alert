@@ -7,7 +7,7 @@ The script checks for covid vaccine slot availability at cowin.gov.in every 5 mi
 The user can provide multiple pincodes and a mobile number in the user-data.txt file in the same format as given.
 
 ## Requirements
-The only requirement for running this script is python3.
+python3 is required. The user must create a free twilio trial account and replace account_sid, auth_token and service_no in Network.py
 
 ## Execution
 To facilitate one command processing, a shell script is added.
