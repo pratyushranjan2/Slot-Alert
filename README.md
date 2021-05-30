@@ -1,7 +1,7 @@
 # SLOT-ALERT
 
 ## About
-The script checks for covid vaccine slot availability at cowin.gov.in every 5 min and alerts the user if slot/s are found.
+The script checks for covid vaccine slot availability at cowin.gov.in every 5 min and alerts the user through an sms if slot/s are found.
 
 ## Providing pincodes and mobile number
 The user can provide multiple pincodes and a mobile number in the user-data.txt file in the same format as given.
