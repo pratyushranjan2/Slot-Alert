@@ -1,9 +1,9 @@
 from twilio.rest import Client
 from data import*
 
-account_sid = 'ACca24bfdc63ddd2791e669661950a0200'
-auth_token = '5bf71eb66356234b264d1c15ffed4caf'
-service_no = '+18329003565'
+account_sid = '<your account_sid>'
+auth_token = '<your auth_token>'
+service_no = '<your twilio mobile number>'
 client = Client(account_sid, auth_token)
 msg_text = 'Vaccination slots available at your provided pincodes.\n\n'
 
