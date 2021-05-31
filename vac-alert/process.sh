@@ -18,5 +18,5 @@ valid=true
 while [ $valid ]
 do
 python3 slot.py
-sleep 5m # Change to sleep 2m if you wish to check every 2 mins and so on
+sleep 300
 done
