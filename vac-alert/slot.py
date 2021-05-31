@@ -7,7 +7,7 @@ import json
 import datetime
 
 def today():
-    date = datetime.datetime(2021,5,30)
+    date = datetime.datetime.today()
     return date.strftime('%d')+'-'+date.strftime('%m')+'-'+date.strftime('%Y')
 
 def tomorrow():
